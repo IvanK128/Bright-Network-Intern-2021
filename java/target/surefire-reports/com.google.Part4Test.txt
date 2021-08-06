@@ -1,0 +1,144 @@
+-------------------------------------------------------------------------------
+Test set: com.google.Part4Test
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in com.google.Part4Test
+com.google.Part4Test.testAllowVideo  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully flagged video: Amazing Cats (reason: dont_like_cats)"
+     but: was "flagVideo needs implementation"
+	at com.google.Part4Test.testAllowVideo(Part4Test.java:234)
+
+com.google.Part4Test.testAllowVideoNotFlagged  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot remove flag from video: Video is not flagged"
+     but: was "allowVideo needs implementation
+"
+	at com.google.Part4Test.testAllowVideoNotFlagged(Part4Test.java:245)
+
+com.google.Part4Test.testFlagVideoStopPausedVideo  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+playVideo needs implementation
+pauseVideo needs implementation
+flagVideo needs implementation
+showPlaying needs implementation
+ ==> expected: <5> but was: <4>
+	at com.google.Part4Test.testFlagVideoStopPausedVideo(Part4Test.java:203)
+
+com.google.Part4Test.testFlagVideosPlayRandom  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully flagged video: Funny Dogs (reason: Not supplied)"
+     but: was "flagVideo needs implementation"
+	at com.google.Part4Test.testFlagVideosPlayRandom(Part4Test.java:69)
+
+com.google.Part4Test.testAllowVideoNonexistent  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot remove flag from video: Video does not exist"
+     but: was "allowVideo needs implementation
+"
+	at com.google.Part4Test.testAllowVideoNonexistent(Part4Test.java:253)
+
+com.google.Part4Test.testFlagVideoAddVideoToPlaylist  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully flagged video: Amazing Cats (reason: Not supplied)"
+     but: was "flagVideo needs implementation"
+	at com.google.Part4Test.testFlagVideoAddVideoToPlaylist(Part4Test.java:91)
+
+com.google.Part4Test.testFlagVideoShowAllVideos  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+flagVideo needs implementation
+showAllVideos needs implementation
+ ==> expected: <7> but was: <2>
+	at com.google.Part4Test.testFlagVideoShowAllVideos(Part4Test.java:124)
+
+com.google.Part4Test.testFlagVideoKeepVideoPlayingIfDifferentFromFlaggedVideo  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Playing video: Amazing Cats"
+     but: was "playVideo needs implementation"
+	at com.google.Part4Test.testFlagVideoKeepVideoPlayingIfDifferentFromFlaggedVideo(Part4Test.java:220)
+
+com.google.Part4Test.testAllowVideoShowPlaylist  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+createPlaylist needs implementation
+addVideoToPlaylist needs implementation
+flagVideo needs implementation
+showPlaylist needs implementation
+allowVideo needs implementation
+showPlaylist needs implementation
+ ==> expected: <8> but was: <6>
+	at com.google.Part4Test.testAllowVideoShowPlaylist(Part4Test.java:267)
+
+com.google.Part4Test.testFlagVideoSearchVideos  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+flagVideo needs implementation
+searchVideos needs implementation
+ ==> expected: <5> but was: <2>
+	at com.google.Part4Test.testFlagVideoSearchVideos(Part4Test.java:148)
+
+com.google.Part4Test.testFlagVideoStopPlayingVideo  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+playVideo needs implementation
+flagVideo needs implementation
+showPlaying needs implementation
+ ==> expected: <4> but was: <3>
+	at com.google.Part4Test.testFlagVideoStopPlayingVideo(Part4Test.java:187)
+
+com.google.Part4Test.testFlagVideoSearchVideosWithTag  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+flagVideo needs implementation
+searchVideosWithTag needs implementation
+ ==> expected: <5> but was: <2>
+	at com.google.Part4Test.testFlagVideoSearchVideosWithTag(Part4Test.java:168)
+
+com.google.Part4Test.testFlagVideoCanNoLongerPlay  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully flagged video: Amazing Cats (reason: Not supplied)"
+     but: was "flagVideo needs implementation"
+	at com.google.Part4Test.testFlagVideoCanNoLongerPlay(Part4Test.java:53)
+
+com.google.Part4Test.testFlagVideoWithoutReason  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully flagged video: Another Cat Video (reason: Not supplied)"
+     but: was "flagVideo needs implementation
+"
+	at com.google.Part4Test.testFlagVideoWithoutReason(Part4Test.java:23)
+
+com.google.Part4Test.testFlagVideoShowPlaylist  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+createPlaylist needs implementation
+addVideoToPlaylist needs implementation
+flagVideo needs implementation
+showPlaylist needs implementation
+ ==> expected: <5> but was: <4>
+	at com.google.Part4Test.testFlagVideoShowPlaylist(Part4Test.java:107)
+
+com.google.Part4Test.testFlagVideoWithReason  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully flagged video: Amazing Cats (reason: dont_like_cats)"
+     but: was "flagVideo needs implementation
+"
+	at com.google.Part4Test.testFlagVideoWithReason(Part4Test.java:15)
+
+com.google.Part4Test.testFlagVideoAlreadyFlagged  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully flagged video: Amazing Cats (reason: dont_like_cats)"
+     but: was "flagVideo needs implementation"
+	at com.google.Part4Test.testFlagVideoAlreadyFlagged(Part4Test.java:34)
+
+com.google.Part4Test.testFlagVideoNonexistent  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot flag video: Video does not exist"
+     but: was "flagVideo needs implementation
+"
+	at com.google.Part4Test.testFlagVideoNonexistent(Part4Test.java:43)
+

@@ -1,0 +1,164 @@
+-------------------------------------------------------------------------------
+Test set: com.google.Part2Test
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 20, Errors: 0, Skipped: 0, Time elapsed: 0.1 s <<< FAILURE! - in com.google.Part2Test
+com.google.Part2Test.showPlaylistAfterRemoveAVideoFromPlaylistThenReAdd  Time elapsed: 0.03 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+createPlaylist needs implementation
+addVideoToPlaylist needs implementation
+addVideoToPlaylist needs implementation
+removeFromPlaylist needs implementation
+addVideoToPlaylist needs implementation
+showPlaylist needs implementation
+ ==> expected: <8> but was: <6>
+	at com.google.Part2Test.showPlaylistAfterRemoveAVideoFromPlaylistThenReAdd(Part2Test.java:131)
+
+com.google.Part2Test.testDeletePlaylist  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully created new playlist: my_playlist"
+     but: was "createPlaylist needs implementation"
+	at com.google.Part2Test.testDeletePlaylist(Part2Test.java:236)
+
+com.google.Part2Test.testClearPlaylist  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+createPlaylist needs implementation
+addVideoToPlaylist needs implementation
+showPlaylist needs implementation
+clearPlaylist needs implementation
+showPlaylist needs implementation
+ ==> expected: <7> but was: <5>
+	at com.google.Part2Test.testClearPlaylist(Part2Test.java:208)
+
+com.google.Part2Test.testClearPlaylistNonexistent  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot clear playlist my_PLAYlist: Playlist does not exist"
+     but: was "clearPlaylist needs implementation
+"
+	at com.google.Part2Test.testClearPlaylistNonexistent(Part2Test.java:225)
+
+com.google.Part2Test.testShowAllPlaylistsNoPlaylistsExist  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "No playlists exist yet"
+     but: was "showAllPlaylists needs implementation
+"
+	at com.google.Part2Test.testShowAllPlaylistsNoPlaylistsExist(Part2Test.java:86)
+
+com.google.Part2Test.testAddVideoToPlaylistNonExistentVideo  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully created new playlist: my_playlist"
+     but: was "createPlaylist needs implementation"
+	at com.google.Part2Test.testAddVideoToPlaylistNonExistentVideo(Part2Test.java:60)
+
+com.google.Part2Test.testRemoveFromPlaylistNonexistentVideo  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully created new playlist: my_playlist"
+     but: was "createPlaylist needs implementation"
+	at com.google.Part2Test.testRemoveFromPlaylistNonexistentVideo(Part2Test.java:184)
+
+com.google.Part2Test.testAddToPlaylist  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully created new playlist: my_playlist"
+     but: was "createPlaylist needs implementation
+addVideoToPlaylist needs implementation
+"
+	at com.google.Part2Test.testAddToPlaylist(Part2Test.java:34)
+
+com.google.Part2Test.testAddVideoToPlaylistNonExistent  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot add video to another_playlist: Playlist does not exist"
+     but: was "addVideoToPlaylist needs implementation
+"
+	at com.google.Part2Test.testAddVideoToPlaylistNonExistent(Part2Test.java:70)
+
+com.google.Part2Test.testRemoveFromPlaylist  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully created new playlist: my_PLAYlist"
+     but: was "createPlaylist needs implementation"
+	at com.google.Part2Test.testRemoveFromPlaylist(Part2Test.java:156)
+
+com.google.Part2Test.testAddToPlaylistAlreadyAdded  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully created new playlist: my_playlist"
+     but: was "createPlaylist needs implementation"
+	at com.google.Part2Test.testAddToPlaylistAlreadyAdded(Part2Test.java:47)
+
+com.google.Part2Test.testCreateExistingPlaylist  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully created new playlist: my_playlist"
+     but: was "createPlaylist needs implementation"
+	at com.google.Part2Test.testCreateExistingPlaylist(Part2Test.java:24)
+
+com.google.Part2Test.testShowPlaylistNonExistent  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot show playlist my_playlist: Playlist does not exist"
+     but: was "showPlaylist needs implementation
+"
+	at com.google.Part2Test.testShowPlaylistNonExistent(Part2Test.java:143)
+
+com.google.Part2Test.testRemoveFromPlaylistVideoNotInPlaylist  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot remove video from my_playlist: Video is not in playlist"
+     but: was "removeFromPlaylist needs implementation"
+	at com.google.Part2Test.testRemoveFromPlaylistVideoNotInPlaylist(Part2Test.java:172)
+
+com.google.Part2Test.testShowAllPlaylists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+createPlaylist needs implementation
+createPlaylist needs implementation
+showAllPlaylists needs implementation
+ ==> expected: <5> but was: <3>
+	at com.google.Part2Test.testShowAllPlaylists(Part2Test.java:96)
+
+com.google.Part2Test.testAddVideoToPlaylistNoVideoNoPlaylist  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot add video to another_playlist: Playlist does not exist"
+     but: was "addVideoToPlaylist needs implementation
+"
+	at com.google.Part2Test.testAddVideoToPlaylistNoVideoNoPlaylist(Part2Test.java:78)
+
+com.google.Part2Test.testCreatePlaylist  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Successfully created new playlist: my_PLAYlist"
+     but: was "createPlaylist needs implementation
+"
+	at com.google.Part2Test.testCreatePlaylist(Part2Test.java:14)
+
+com.google.Part2Test.testDeletePlaylistNonexistent  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot delete playlist my_playlist: Playlist does not exist"
+     but: was "deletePlaylist needs implementation
+"
+	at com.google.Part2Test.testDeletePlaylistNonexistent(Part2Test.java:245)
+
+com.google.Part2Test.testRemoveFromPlaylistNonexistentPlaylist  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Cannot remove video from my_cool_playlist: Playlist does not exist"
+     but: was "removeFromPlaylist needs implementation
+"
+	at com.google.Part2Test.testRemoveFromPlaylistNonexistentPlaylist(Part2Test.java:195)
+
+com.google.Part2Test.testShowPlaylist  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+createPlaylist needs implementation
+showPlaylist needs implementation
+addVideoToPlaylist needs implementation
+showPlaylist needs implementation
+ ==> expected: <6> but was: <4>
+	at com.google.Part2Test.testShowPlaylist(Part2Test.java:110)
+
